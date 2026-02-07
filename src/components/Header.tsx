@@ -32,7 +32,6 @@ export const Header = () => {
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-lg text-foreground leading-tight">SafeStreet</span>
-                <span className="text-xs text-muted-foreground leading-tight">City Heart</span>
               </div>
             </a>
 

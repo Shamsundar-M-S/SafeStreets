@@ -7,7 +7,7 @@ export const Hero = () => {
     <section className="relative min-h-[90vh] flex items-center pt-16 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-secondary via-background to-secondary/50" />
-      <div 
+      <div
         className="absolute inset-0 opacity-[0.03]"
         style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23166534' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
@@ -24,7 +24,7 @@ export const Hero = () => {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6"
           >
             <span className="w-2 h-2 rounded-full bg-status-safe animate-pulse" />
-            Walkability Prototype
+            Walkability Platform
           </motion.div>
 
           {/* Headline */}
@@ -36,7 +36,7 @@ export const Hero = () => {
           >
             SafeStreet{' '}
             <span className="text-gradient bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-              City Heart
+              Walkability 
             </span>
           </motion.h1>
 
@@ -47,8 +47,8 @@ export const Hero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto mb-8"
           >
-            Discover how walkable your routes are. Our walkability scores help you understand 
-            pedestrian accessibility, safety, and the impact on your health and sustainability goals.
+            Measure how pedestrian-friendly your streets are using data-driven walkability
+            scores that reflect safety, accessibility, and environmental impact.
           </motion.p>
 
           {/* CTA */}
@@ -61,7 +61,7 @@ export const Hero = () => {
             <Button variant="hero" size="xl" asChild>
               <a href="#walk-score" className="gap-2">
                 <Footprints className="w-5 h-5" />
-                Calculate Your Walk Score
+                Check Walkability Score
               </a>
             </Button>
           </motion.div>
@@ -74,9 +74,9 @@ export const Hero = () => {
             className="grid grid-cols-1 sm:grid-cols-3 gap-4"
           >
             {[
-              { icon: Footprints, label: 'Walkability Analysis', desc: 'Score routes 0-100' },
-              { icon: Heart, label: 'Health Benefits', desc: 'Walking improves wellness' },
-              { icon: TreeDeciduous, label: 'Sustainability', desc: 'Reduce carbon footprint' },
+              { icon: Footprints, label: 'Walkability Score', desc: 'Rate streets from 0 to 100' },
+              { icon: Heart, label: 'Public Health', desc: 'Encourages active lifestyles' },
+              { icon: TreeDeciduous, label: 'Sustainability', desc: 'Supports low-carbon mobility' },
             ].map((item, index) => (
               <motion.div
                 key={item.label}
@@ -94,7 +94,6 @@ export const Hero = () => {
             ))}
           </motion.div>
         </div>
-
       </div>
     </section>
   );
