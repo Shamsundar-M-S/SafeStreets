@@ -36,7 +36,7 @@ export const Hero = () => {
           >
             SafeStreet{' '}
             <span className="text-gradient bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-              Walkability 
+              Walkability
             </span>
           </motion.h1>
 
