@@ -1,11 +1,15 @@
 # SafeStreets
+
 SafeStreet is a web-based prototype that helps users evaluate pedestrian walkability between two locations by providing a walkability score, safety verdict, and risk breakdown. Built to promote people-first streets, safer walking decisions, and sustainable cities.
-This is out team project for our first ever hackathon 
-Team Members:
-    1. Jeevan Ram P B I
-    2. Nishaanthan E
-    3. SHAIK TAWFEEQ AHAMAD
-    4. SHAMSUNDAR MS
+
+This is our team project for our first-ever hackathon.
+
+## Team Members
+1. Jeevan Ram P B I  
+2. Nishaanthan E  
+3. Shaik Tawfeeq Ahamad  
+4. Shamsundar MS  
+
 
 # 🚶‍♂️ SafeStreet
 
